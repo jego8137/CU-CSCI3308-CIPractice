@@ -1,0 +1,5 @@
+language: C
+compiler: clang
+install: make get-deps
+script: ./geometry_test.c $coord_2d_suite
+sudo: required
